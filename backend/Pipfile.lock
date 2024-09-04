@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "463b1e1300c9a88140b5324ec640eda9fa3866f561b3fcffc44be474ba4d0cbb"
+            "sha256": "2db254050984ce830d38815aea96369073ead30c5b7413a1552f5325db57e2cd"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -99,6 +99,10 @@
         "cb-django-disqus": {
             "editable": true,
             "path": "./modules/django_disqus"
+        },
+        "cb-django-openai": {
+            "editable": true,
+            "path": "./modules/django_openai"
         },
         "certifi": {
             "hashes": [
@@ -525,7 +529,6 @@
             "version": "==2.7.2"
         },
         "googleapis-common-protos": {
-            "extras": [],
             "hashes": [
                 "sha256:2972e6c496f435b92590fd54045060867f3fe9be2c82ab148fc8885035479a63",
                 "sha256:334a29d07cddc3aa01dee4988f9afd9b2916ee2ff49d6b757155dc0d197852c0"
